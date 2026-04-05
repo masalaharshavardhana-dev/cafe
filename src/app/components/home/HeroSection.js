@@ -54,7 +54,7 @@ export default function HeroSection() {
 
       <div className="z-20 max-w-4xl">
         <h1 className="text-6xl md:text-9xl font-serif text-latte mb-6 overflow-hidden leading-tight">
-          Ca Phe <br className="md:hidden" /> Bistro
+          Cà phê <br className="md:hidden" /> Bistro
         </h1>
         <p className="text-xl md:text-2xl text-caramel/90 max-w-2xl mx-auto font-light tracking-wide leading-relaxed">
           Something brewtiful is here ☕. Experience the cinematic art of artisanal brewing in every single drop.

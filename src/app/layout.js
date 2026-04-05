@@ -1,4 +1,4 @@
-import { Inter, Cormorant_Garamond } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import SmoothScrollProvider from "./components/SmoothScrollProvider";
 import Navbar from "./components/Navbar";
@@ -7,20 +7,15 @@ import Loader from "./components/Loader";
 import PageTransition from "./components/PageTransition";
 import AmbientSoundToggle from "./components/AmbientSoundToggle";
 
-const inter = Inter({
-  variable: "--font-inter",
+const roboto = Roboto({
+  variable: "--font-roboto",
   subsets: ["latin"],
-});
-
-const cormorant = Cormorant_Garamond({
-  variable: "--font-cormorant",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["100", "300", "400", "500", "700", "900"],
 });
 
 export const metadata = {
-  title: "Ca Phe Bistro | Premium Cinematic Cafe Experience",
-  description: "Experience the art of coffee in Hyderabad with Ca Phe Bistro. Premium brewing, luxury ambience, and cinematic interactions.",
+  title: "Cà phê Bistro | Premium Cinematic Cà phê Experience",
+  description: "Experience the art of coffee in Hyderabad with Cà phê Bistro. Premium brewing, luxury ambience, and cinematic interactions.",
   manifest: "/manifest.json", // Add manifest for PWA support
 };
 
@@ -30,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${cormorant.variable} h-full antialiased dark`}
+      className={`${roboto.variable} h-full antialiased dark`}
     >
       <body className="min-h-full bg-matte-black text-latte grain">
         <Loader />

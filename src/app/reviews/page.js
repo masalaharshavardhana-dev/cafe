@@ -5,10 +5,10 @@ import { Star, MessageSquare, Loader2 } from 'lucide-react';
 import { useGoogleReviews } from '../hooks/useGoogleReviews';
 
 const fullReviews = [
-  { id: 'static-1', name: 'Srikanth Banja', rating: 5, text: 'Absolutely one of the best matcha Vietnamese coffee experiences I’ve had at Ca Phe Bistro. The ambiance is cozy and welcoming, perfect for relaxing with a great cup of coffee. The staff and service were very approachable and friendly.', location: 'Hyderabad' },
+  { id: 'static-1', name: 'Srikanth Banja', rating: 5, text: 'Absolutely one of the best matcha Vietnamese coffee experiences I’ve had at Cà phê Bistro. The ambiance is cozy and welcoming, perfect for relaxing with a great cup of coffee. The staff and service were very approachable and friendly.', location: 'Hyderabad' },
   { id: 'static-2', name: 'Dukuntla sai kumar', rating: 5, text: 'Cool & calm breezey Atmosphere...best place to hangout new place alert ##kudos to their brews must try strawberry matcha latte', location: 'Hyderabad' },
-  { id: 'static-3', name: 'Qazi Burhan', rating: 5, text: "Recently visited this cozy cafe and I'm already in love with thier Coconut Vietnamese Coffee ❤️🤎☕", location: 'Hyderabad' },
-  { id: 'static-4', name: 'Sridevi Reddy', rating: 5, text: 'I recently visited Ca Phe Bistro and even though my visit was short, it left a lasting impression. I tried the Vietnamese Coconut Coffee and a Cold Coffee — and both were absolutely delightful.', location: 'Hyderabad' },
+  { id: 'static-3', name: 'Qazi Burhan', rating: 5, text: "Recently visited this cozy cà phê and I'm already in love with thier Coconut Vietnamese Coffee ❤️🤎☕", location: 'Hyderabad' },
+  { id: 'static-4', name: 'Sridevi Reddy', rating: 5, text: 'I recently visited Cà phê Bistro and even though my visit was short, it left a lasting impression. I tried the Vietnamese Coconut Coffee and a Cold Coffee — and both were absolutely delightful.', location: 'Hyderabad' },
   { id: 'static-5', name: 'Vipul Bhardwaj', rating: 5, text: 'Good place for a quick catch up. Order type: Dine in.', location: 'Hyderabad' },
   { id: 'static-6', name: 'Anjest Biswa', rating: 5, text: 'Awesome Ambiance Mouth watering beverages and food🍲 Excellent 5 star service by service staff.', location: 'Hyderabad' },
   { id: 'static-7', name: 'Puduri Pranay', rating: 5, text: 'Very cool place to have a hot coffee and hangout.', location: 'Hyderabad' },

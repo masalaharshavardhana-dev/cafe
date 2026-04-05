@@ -53,7 +53,7 @@ export default function AboutPage() {
         <div className="space-y-6">
           <h2 className="text-4xl md:text-6xl font-serif text-latte">The Philosophy</h2>
           <p className="text-lg text-latte/70 leading-relaxed">
-            At Ca Phe Bistro, we believe that coffee is more than just a drink—it's an experience. Our philosophy is rooted in the "Slow Coffee" movement, where every step of the process is handled with care, precision, and a bit of theatrical flair.
+            At Cà phê Bistro, we believe that coffee is more than just a drink—it's an experience. Our philosophy is rooted in the "Slow Coffee" movement, where every step of the process is handled with care, precision, and a bit of theatrical flair.
           </p>
           <p className="text-lg text-latte/70 leading-relaxed">
             From the selection of ethically sourced beans from the highlands of Vietnam and our local plantations in India, to the final cinematic pour, we prioritize quality over everything.

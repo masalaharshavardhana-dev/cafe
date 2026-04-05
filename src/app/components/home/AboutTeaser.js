@@ -15,7 +15,7 @@ export default function AboutTeaser() {
           Our Story
         </h2>
         <p className="text-xl text-latte/80 leading-relaxed font-light">
-          Born in the heart of Hyderabad, Ca Phe Bistro is more than just a café. It's a sanctuary for those who appreciate the finer notes of a perfectly extracted bean.
+          Born in the heart of Hyderabad, Cà phê Bistro is more than just a cà phê. It's a sanctuary for those who appreciate the finer notes of a perfectly extracted bean.
         </p>
         <p className="text-lg text-caramel/90">
           We blend traditional brewing techniques with modern cinematic aesthetics to create an experience that wakes up all your senses.

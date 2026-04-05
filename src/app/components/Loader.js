@@ -41,7 +41,7 @@ export default function Loader() {
       
       <div className="mt-8 text-center">
         <h1 className="text-3xl font-serif text-latte tracking-[0.2em]">
-          CA PHE BISTRO
+          Cà phê Bistro
         </h1>
         <p className="mt-4 text-xs tracking-[0.5em] text-caramel/60 animate-pulse uppercase">
           Brewing Something Beautiful

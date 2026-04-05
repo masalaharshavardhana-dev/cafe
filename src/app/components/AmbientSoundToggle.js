@@ -9,7 +9,7 @@ export default function AmbientSoundToggle() {
   const audioRef = useRef(null);
 
   useEffect(() => {
-    // Use the local energetic cafe audio file
+    // Use the local energetic cà phê audio file
     const audioUrl = '/tawipop-coffee-shop-338785.mp3';
     audioRef.current = new Audio(audioUrl);
     audioRef.current.loop = true;

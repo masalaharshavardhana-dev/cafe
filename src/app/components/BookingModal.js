@@ -90,7 +90,7 @@ export default function BookingModal({ isOpen, onClose }) {
                   >
                     <CheckCircle2 size={64} className="text-gold" />
                     <h3 className="text-2xl font-serif text-latte">Table Reserved!</h3>
-                    <p className="text-latte/60">We've received your booking. See you soon at Ca Phe Bistro.</p>
+                    <p className="text-latte/60">We've received your booking. See you soon at Cà phê Bistro.</p>
                   </motion.div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-6">

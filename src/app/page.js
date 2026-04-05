@@ -4,6 +4,7 @@ import React from 'react';
 import HeroSection from "./components/home/HeroSection";
 import AboutTeaser from "./components/home/AboutTeaser";
 import SpecialtiesPreview from "./components/home/SpecialtiesPreview";
+import SentimentsSection from "./components/home/SentimentsSection";
 import GallerySection from "./components/home/GallerySection";
 import ReviewsTeaser from "./components/home/ReviewsTeaser";
 import Link from 'next/link';
@@ -17,6 +18,7 @@ export default function Home() {
       <HeroSection />
       <AboutTeaser />
       <SpecialtiesPreview />
+      <SentimentsSection />
       <GallerySection />
       <ReviewsTeaser />
       
@@ -27,7 +29,7 @@ export default function Home() {
             Visit Us in Hyderabad
           </h2>
           <p className="text-lg md:text-xl font-light opacity-80 leading-relaxed">
-            Come and experience the cinematic essence of Ca Phe Bistro. We are open every day from 8:00 AM to 10:00 PM.
+            Come and experience the cinematic essence of Cà phê Bistro. We are open every day from 8:00 AM to 10:00 PM.
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 pt-8">
             <Link href="/location">
@@ -48,7 +50,7 @@ export default function Home() {
       {/* Simple Footer */}
       <footer className="py-12 px-8 md:px-24 border-t border-latte/10 text-center">
         <p className="text-sm text-latte/40 tracking-[0.3em]">
-          &copy; {new Date().getFullYear()} CA PHE BISTRO. ALL RIGHTS RESERVED.
+          &copy; {new Date().getFullYear()} CÀ PHÊ BISTRO. ALL RIGHTS RESERVED.
         </p>
       </footer>
     </div>

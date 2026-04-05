@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Wifi, Zap, Music, Coffee, Wind, BookOpen } from 'lucide-react';
+import { Wifi, Zap, Music, Coffee, Wind, BookOpen, Heart, Mail } from 'lucide-react';
 
 const amenities = [
   { 
@@ -45,6 +45,13 @@ const amenities = [
     title: 'Reading Nook', 
     description: 'A curated second-hand library for our patrons.',
     tag: 'Quiet Zone'
+  },
+  { 
+    id: 7, 
+    icon: <Mail size={32} />, 
+    title: 'Greeting Cards', 
+    description: 'A curated collection of Paperdew greeting cards for all your special moments.',
+    tag: 'Sentiments'
   },
 ];
 
